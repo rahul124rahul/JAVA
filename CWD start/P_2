@@ -1,0 +1,40 @@
+
+// Literals in the java
+// A constant value assigned to the variable to the variable is called as literal.
+
+
+
+public class p_1{
+    public static void main(String args[]){
+        int a;
+        a=12;
+
+        float b;
+        b=23.4f;
+
+        double d = 123D;
+        byte by = 123;
+        // string str = "rahul";
+        long lg =1234l;
+
+        System.out.println("This is literal Exapmles : ");
+        System.out.println(lg);
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(d);
+        System.out.println(by);
+        // System.out.println(str);
+
+    }
+}
+
+
+
+Output :
+
+This is literal Exapmles : 
+1234
+12
+23.4
+123.0
+123
