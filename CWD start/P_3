@@ -1,0 +1,56 @@
+import java.security.DrbgParameters.NextBytes;
+import java.util.Scanner;
+
+class p_2{
+     
+    public static void main(String args[]){
+        System.out.println("Rahul is Good Boy !!!! ");
+        
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter first no : ");
+        int a = s.nextInt();
+        System.out.print("Enter second no : ");
+        int b = s.nextInt();
+
+        System.out.println("Your Entered numbers are "+ a+" & "+b );   // This is a separate representation the data taken from the input 
+        
+        System.out.println("Your Entered numbers concatenate : "+ a+b );   // this is used for just concitating
+        
+        System.out.println("Your Entered numbers Sum is "+ (a+b) );   // This will give the sum of the integers
+    
+
+        // Following are the some methods of the taking input from the user in different format 
+
+        System.out.println();
+        System.out.print("Enter the floating point number : ");
+        float f1 = s.nextFloat();
+        System.out.println("Your Entered Floating point number is : "+f1);
+
+
+
+        //  To check the user has Entered the correct input or not the following method can be used 
+
+        System.out.println();
+        System.out.println("Enter the number to check the input is integer or not : ");
+        boolean b2 = s.hasNextInt();
+        System.out.println("Entered number is integer : "+b2);
+        
+    }
+
+}
+
+
+Output :
+
+ter first no : 123
+Enter second no : 987
+Your Entered numbers are 123 & 987
+Your Entered numbers concatenate : 123987
+Your Entered numbers Sum is 1110
+
+Enter the floating point number : 12.23
+Your Entered Floating point number is : 12.23
+
+Enter the number to check the input is integer or not :
+34.34
+Entered number is integer : false
