@@ -1,0 +1,15 @@
+// Addition of three numbers code written in python
+
+public class p_1 {
+    
+    public static void main(String arg[]){
+        int a=34;
+        int b=21 , d=12;
+        System.out.print("Rahul is too brave guy !!!   ");   // print will print the next line content in the same line 
+        System.out.println(a+b+d);          // println will print the next line content in new line by adding the new line at the end
+    }
+}
+
+Output :
+
+Rahul is too brave guy !!!   67
