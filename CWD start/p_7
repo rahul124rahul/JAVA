@@ -1,0 +1,26 @@
+
+//  To Check Whether input Entered by the user is integer or not 
+
+import java.util.Scanner;
+
+public class p_4{
+    public static void main(String args[]){
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter Integer number : ");
+        boolean a = s.hasNextInt();
+        System.out.println("Checking that user has entered Integer no. of not : "+a+"\n");
+    }
+}
+
+
+
+Output :
+
+Enter Integer number : 2334
+Checking that user has entered Integer no. of not : true
+
+Enter Integer number : 23.09
+Checking that user has entered Integer no. of not : false
+
+Enter Integer number : sdsffd
+Checking that user has entered Integer no. of not : false
