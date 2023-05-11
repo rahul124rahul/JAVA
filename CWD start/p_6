@@ -1,0 +1,29 @@
+// 7) Chapter 1  practice test
+
+//   Kilometers to miles conversion 
+
+import java.util.Scanner;
+
+public class p_4 {
+    public static void main(String args[]){
+        Scanner sa = new Scanner(System.in);
+        System.out.print("\nEnter the distance in the Kilometrs : ");
+        double d = sa.nextDouble();
+        double da = d*0.621371;
+        
+        System.out.println("The Equivalent Distance in miles : "+da);
+    }
+}
+
+
+Output :
+
+
+Enter the distance in the Kilometrs : 23
+The Equivalent Distance in miles : 14.291533
+
+Enter the distance in the Kilometrs : 45
+The Equivalent Distance in miles : 27.961695
+
+Enter the distance in the Kilometrs : 500
+The Equivalent Distance in miles : 310.6855
