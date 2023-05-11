@@ -1,0 +1,32 @@
+
+
+import java.util.Scanner;
+
+public class p_3{
+    public static void main(String args[]){
+        Scanner s = new Scanner(System.in);
+        // System.out.println("Enter 3 subject marks out of 100 for getting CGPA of the particular student : ");
+        // float a = s.nextFloat();
+        // float b = s.nextFloat();
+        // float c = s.nextFloat();
+
+        // float CGPA = (a+b+c)/30;
+        // System.out.println("The CGPA of the student is : " + CGPA);
+
+
+
+
+        // Q. Take input from the user and Display the Statement " Hello ----- , Have a Good Day !!!"
+
+        System.out.print("\nEnter Your name Please : ");
+        String p = s.next();
+        System.out.println("Hello "+p+" , Have a Good Day !!!!!!!!!");
+
+    }
+}
+
+
+Output :
+
+Enter Your name Please : Rahul
+Hello Rahul , Have a Good Day !!!!!!!!!
