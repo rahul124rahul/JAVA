@@ -1,0 +1,32 @@
+// 6) Java Programming Exercise 
+
+    // Q. Write program to calculate percentage of a given students in CBSE board exam. 
+    //     His marks from 5 subjects must be taken as input from the keyboards.
+    //     ( Marks are out of 100 )
+
+import java.util.Scanner;
+
+public class p_3 {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("\nEnter Students Marks of 5 Subjects out of 100 : ");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int d = sc.nextInt();
+        int e = sc.nextInt();
+
+        System.out.println("The Percentage of the marks of the students is : "+(a+b+c+d+e)/5);
+    }
+}
+
+
+Output :
+
+Enter Students Marks of 5 Subjects out of 100 : 
+78
+85
+98
+67
+56
+The Percentage of the marks of the students is : 76
