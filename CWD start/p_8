@@ -1,0 +1,73 @@
+// 8) Operators and Type of the operators Expression in java
+
+import javax.sound.sampled.SourceDataLine;
+
+public class p_5 {
+    public static void main(String args[]){
+        int a=9;
+        int b=12+a;
+        int c=32*b;
+        System.out.println("a : "+a+"\nb : "+b);
+        System.out.println("c : "+c);
+        System.out.println("a += 10  => "+(a+=10));
+        System.out.println("b *= 100  => "+(b*=100));
+
+
+        // To check the condition is true of false the comparison 
+        System.out.println("2==2 : "+(2==2));
+        System.out.println("2==1 : "+(2==1));
+        System.out.println("2>=1 : "+(2>=1));
+        System.out.println("2!=1 : "+(2!=1));
+
+
+        // Logical operators && , || , !
+        // Following are the examples of the Logical operator 
+        System.out.println("2==2 && 2>1   :  "+(2==2 && 2>1) );
+        System.out.println("2==2 || 2<1   :  "+(2==2 || 2<1) );
+        System.out.println("2==2 && 2<1   :  "+(2==2 && 2<1) );
+        System.out.println("!true : "+ !true );
+
+
+        // Bitwise operators 
+        //  In this operation where this operator is used
+        // operations performed in the Binary equivalent integer in the input operands 
+        System.out.println("2 & 3 : "+ (2&3));
+        System.out.println("9 | 6 : "+(9|6));
+
+
+        // Arithmetic operators cannnot work with booleans 
+        // % operator can work on floats and doubles 
+        boolean p= true ;
+        boolean q = true;
+        // System.out.println("p + q : "+(p+q));    This will throw an error
+
+        float fd=6789.234f;
+        double db = 1234567.2567;
+        System.out.println("fd % 12 : "+(fd%12));    
+        System.out.println("db % 24 : "+(db%24));    
+    }    
+       
+}
+
+
+
+Output :
+
+a : 9
+b : 21
+c : 672
+a += 10  => 19
+b *= 100  => 2100
+2==2 : true
+2==1 : false
+2>=1 : true
+2!=1 : true
+2==2 && 2>1   :  true
+2==2 || 2<1   :  true
+2==2 && 2<1   :  false
+!true : false
+2 & 3 : 2
+9 | 6 : 15
+fd % 12 : 9.233887
+db % 24 : 7.256700000027195
+
