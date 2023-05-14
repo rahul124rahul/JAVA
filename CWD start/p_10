@@ -1,0 +1,62 @@
+
+// 10) Data Types of the expressions , Increment and Decrement operator  
+    // Resulting data type after Performing operations
+
+import java.util.Scanner;
+
+public class p_6{
+    public static void main(String arg[]){
+        Scanner s = new Scanner(System.in);
+
+        int b=12+98;
+        float c=45.9f + 76;
+        float d=987.67f-3456l;
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        
+
+
+        // Increment And Decrement Operators 
+        int p=45;
+        System.out.println("p = 45 \np++ = "+ p++);
+        System.out.println("p = "+p);
+        System.out.println("++p = "+ ++p);      // Use of the increment operator 
+
+        int r=90;
+        System.out.println("r = "+r);
+        System.out.println("r-- : "+r--);
+        System.out.println("r = "+r);
+        System.out.println("--r : "+ --r);      // Use of the decrement operator 
+
+
+        // The precidence of the increment and decrement unary operators is greater than Arithmetic operators
+        int D=24; 
+        System.out.println("D : "+D);
+        System.out.println("++D*25 : "+ ++D*25);
+
+
+        // We can use this unary operators in characters also like following 
+        
+        char a='S';
+        System.out.println(++a);
+    }
+}
+
+
+Output :
+
+110
+121.9
+-2468.33
+p = 45 
+p++ = 45
+p = 46
+++p = 47
+r = 90
+r-- : 90
+r = 89
+--r : 88
+D : 24
+++D*25 : 625
+T
