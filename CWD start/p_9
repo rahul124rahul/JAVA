@@ -1,0 +1,33 @@
+// 9) Associativity of operators in java 
+
+import java.util.Scanner;
+
+public class p_6 {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+
+        // Precidence & associativity 
+        // Prefer to use the simple brackets for easier associativity and precidence 
+
+        System.out.println("6*4-64/8  : "+(6*4-64/8) );
+        System.out.println("60/4-64*8  : "+(60/4-64*8) );
+
+
+        // Quick Quiz :
+        int x = 4 , y = 6;
+        System.out.println("x = 4    y = 6  \n(x-y)/2 : "+ (x+y)/2 );     
+        System.out.println("(b^2-4ac)/2  : "+ ((5*5 - 4*2*1)/(2*1)) );   
+
+    }   
+}
+
+
+
+Output :
+
+
+6*4-64/8  : 16
+60/4-64*8  : -497
+x = 4    y = 6
+(x-y)/2 : 5
+(b^2-4ac)/2  : 8
