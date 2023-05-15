@@ -1,0 +1,31 @@
+// Q 3)
+//      Use the comparison operators to find out weather a given number is greater then user entered number or not
+
+import java.util.Scanner;
+
+public class p_8 {
+    public static void main(String args[]){
+        Scanner s = new Scanner(System.in);
+
+        System.out.print("Enter 1st no : ");
+        int a = s.nextInt();
+
+        System.out.print("Enter a number to check whether it is  greater than previous no : ");
+        int b = s.nextInt();
+
+        System.out.println("Entered no "+b+" is greater than "+a+" : "+ (b>a));
+
+        
+    }    
+}
+
+
+Output :
+
+Enter 1st no : 12
+Enter a number to check whether it is  greater than previous no : 34
+Entered no 34 is greater than 12 : true
+
+Enter 1st no : 45
+Enter a number to check whether it is  greater than previous no : 12
+Entered no 12 is greater than 45 : false
