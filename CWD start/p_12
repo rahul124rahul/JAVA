@@ -1,0 +1,33 @@
+
+
+// Write a python program to encrupt the grade by adding 8 to it . Decrept the grade to show the correct grade 
+
+import java.util.Scanner;
+
+public class p_7{
+    public static void main(String args[]){
+        Scanner s = new Scanner(System.in);
+
+        char a = 'C';
+        char e = (char)(a+8);
+        
+        // The grade is encrupted 
+        
+        System.out.println("Firstly the grade is encrupted  ");
+        System.out.println("Dummy Grade is : "+e);
+        
+        // then the code is decrepted 
+
+        System.out.println("Then the Grade is Decrepted ");
+        System.out.println("Original Grade is : "+ (char)(e-8));        
+
+    }
+}
+
+
+Output :
+
+Firstly the grade is encrupted  
+Dummy Grade is : K
+Then the Grade is Decrepted 
+Original Grade is : C
