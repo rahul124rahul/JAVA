@@ -1,0 +1,41 @@
+
+
+// Q4) & Q5)
+
+//      Write the Following expressions in java program :
+//      (v^2 - u^2)  /  2a
+
+//      Find the value of the following expression : 
+
+public class p_8{
+    public static void main(String args[]){
+        float a = 12.0f;
+        float v = 45.2f;
+        float u = 7.3f;
+
+        float r = (v*v - u*u) / (2*a);
+
+        System.out.println("v = "+v);
+        System.out.println("u = "+u);
+        System.out.println("a = "+a);
+        System.out.println("r = (v*v - u*u) / (2*a)  : "+r);
+    
+
+        int p = 7;
+        int q = 7*49/7+35/7;
+        System.out.println("p = "+p);
+        System.out.println("q = 7*49/7+35/7  : "+q);
+    }
+}
+
+
+
+Output ::
+
+
+v = 45.2
+u = 7.3
+a = 12.0
+r = (v*v - u*u) / (2*a)  : 82.90625
+p = 7
+q = 7*49/7+35/7  : 54
