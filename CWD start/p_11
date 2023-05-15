@@ -1,0 +1,24 @@
+// Chapter 2 : Operator precidence 
+//      Practice Set
+
+
+//  P1  What will be the result of the following expression 
+//      float a = 7/4*9/2; 
+
+public class p_7 {
+    public static void main(String args[]){
+        float a = 7/4*9/2;          // Here this is treated as the integer
+        System.out.println(a);
+
+        float b = 7/4.0f*9/2.0f;    // This will give correct answer
+        System.out.println(b);
+        
+    }
+}
+
+
+
+Output :
+
+4.0
+7.875
