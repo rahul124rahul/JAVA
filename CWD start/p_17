@@ -1,0 +1,47 @@
+
+//  14 ) String methods in JAVA
+    // String methods are operate on the JAVA string 
+    // They can be used to find length of the string , convert lower case , etc
+
+import java.util.Scanner;
+
+public class p_9{
+    public static void main(String args[]){
+        String s = "Rahul";
+        String sc = "Sonu is going to School.";
+        
+        System.out.println(s.toUpperCase());
+        System.out.println(sc.toUpperCase());
+
+        String h = "    !!!!!! Doctor K !!!!!    ";
+        String h2 = "!!!!!!!!!!Hello Boss!!!!!!!!!!";
+        System.out.println(h);
+        System.out.println(h.trim());
+        System.out.println(h2.trim());
+
+        System.out.println("\nPrinting the substrings : ");
+        System.out.println(s.substring(2));
+        System.out.println(sc.substring(3, 9));
+        System.out.println(sc.substring(0));
+
+       
+        // System.out.println(sc.startsWith("Son", 4));     // not getting what is this 
+        
+
+    }
+}
+
+
+Output :
+
+
+RAHUL
+SONU IS GOING TO SCHOOL.
+    !!!!!! Doctor K !!!!!
+!!!!!! Doctor K !!!!!
+!!!!!!!!!!Hello Boss!!!!!!!!!!
+
+Printing the substrings :
+hul
+u is g
+Sonu is going to School.
