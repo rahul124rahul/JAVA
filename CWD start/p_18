@@ -1,0 +1,50 @@
+
+//  14 ) String methods in JAVA
+    // String methods are operate on the JAVA string 
+    // They can be used to find length of the string , convert lower case , etc
+
+import java.util.Scanner;
+
+public class p_9{
+    public static void main(String args[]){
+        String s = "Rahul";
+        String sc = "Sonu is going to School.";
+        
+        System.out.println("\nReplacing lettes in the given string  : ");
+        System.out.println(s.replace('h', 'k'));        // Use single code for replacement of the single character
+        System.out.println(sc.replace('o','0'));        // replace all the old characters in the string by the new character
+        System.out.println(s.replace("ahul", "eady"));  // Use double code for replacement of the more than 1 characters
+
+
+        System.out.println("\nSome boolean output functions : ");
+        System.out.println(s.startsWith("Rah"));
+        System.out.println(s.startsWith("ah"));
+
+        System.out.println(s.endsWith("ahul"));
+        System.out.println(s.endsWith("ahl"));
+
+
+
+
+       
+        // System.out.println(sc.startsWith("Son", 4));     // not getting what is this 
+        
+
+    }
+}
+
+
+
+Output :
+
+
+Replacing lettes in the given string  : 
+Rakul
+S0nu is g0ing t0 Sch00l.
+Ready
+
+Some boolean output functions : 
+true
+false
+true
+false
