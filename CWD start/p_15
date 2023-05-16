@@ -1,0 +1,55 @@
+// 13 ) JAVA Tutorial - Introduction to the string
+
+    // - String is Sequence of the characters 
+    // - The Srting is instantiated as follows :
+    //  String name ;
+    //  name = new String ("Rahul");
+    
+    // - String is the class but it can be used like  a data type :
+    //   - Strings are immutable and cannot be changed .
+    //   - String name = "Rahul";
+
+import java.util.Scanner;
+
+public class p_9 {
+    public static void main(String arg[]){
+
+        Scanner sc = new Scanner(System.in);
+
+        String s = new String("Rahul");
+        System.out.println(s);
+        String n = "Sonu";
+        System.out.println(n);
+
+        // Different ways to print in JAVA are as follows :
+        System.out.println("Rahul is a Good Boy !!");       // Automatically new line is addded to the next line 
+        System.out.print("Sonu is a Brave boy.");       // No new line is added to next line 
+        System.out.println();           // This is used to add new line
+        
+        System.out.printf("Rahul is %d years old. His height it %d cm.His weight is %.3fkg.",21,165,70.434246757687);        // (1)IMP
+        System.out.println();
+        System.out.format("Rahul is %d years old. His height it %d cm.His weight is %7.3fkg.",21,165,70.445665577689899);        // (2)IMP
+            // Both 1 & 2 are works in the same way. We can use any of these.
+        System.out.println();
+
+
+        System.out.print("Enter your full name : ");
+        // String st = sc.next();   // It will take only one word as input and return single word at the time of accessing
+        String st = sc.nextLine();      // This will read all the line and also the white spaces in between the words
+        System.out.println("Your name is : "+st);
+
+
+    }
+}
+
+
+Output :
+
+Rahul
+Sonu
+Rahul is a Good Boy !!
+Sonu is a Brave boy.
+Rahul is 21 years old. His height it 165 cm.His weight is 70.434kg.
+Rahul is 21 years old. His height it 165 cm.His weight is  70.446kg.
+Enter your full name : Rahul
+Your name is : Rahul
